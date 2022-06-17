@@ -1,9 +1,9 @@
 {
-  "name": "YOURAPPNAME",
-  "vendor": "vtex",
-  "version": "0.0.1",
-  "title": "CHANGEME",
-  "description": "CHANGEME",
+  "name": "vwo-pixel-app",
+  "vendor": "esika",
+  "version": "0.0.0",
+  "title": "VWO Pixel App",
+  "description": "VWO Integration",
   "billingOptions": {
     "termsURL": "https://compliance.vtex.com/gdpr/policies/vtex-privacy-policy",
     "support": {
@@ -25,12 +25,12 @@
     "vtex.pixel-interfaces": "1.x"
   },
   "settingsSchema": {
-    "title": "YOUR APP NAME",
+    "title": "vwo-pixel-app",
     "type": "object",
     "properties": {
-      "gtmId": {
-        "title": "SAMPLE FIELD",
-        "description": "Enter the ID (GTM-XXXX) from your Google Tag Manager",
+      "vwoAppId": {
+        "title": "VWO App Id",
+        "description": "Enter the Account ID from your VWO Application",
         "type": "string"
       }
     }
